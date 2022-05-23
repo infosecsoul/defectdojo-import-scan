@@ -17,7 +17,7 @@ steps:
     uses: actions/checkout@v2
   - name: Publish report
     id: import-scan
-    uses: ivanamat/defectdojo-import-scan@v1
+    uses: infosecsoul/defectdojo-import-scan@v1
     with:
       token: ${{ secrets.DEFECTOJO_TOKEN }}
       defectdojo_url: ${{ secrets.DEFECTOJO_URL }}
